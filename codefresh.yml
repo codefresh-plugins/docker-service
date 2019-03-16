@@ -2,9 +2,9 @@ version: '1.0'
 steps:
   build_step:
     type: build
-    image-name: codefresh/docker-service
+    image-name: codefreshplugins/docker-service
 
   push_to_registry:
     type: push
     candidate: ${{build_step}}
-    tag: ${{CF_BRANCH}}
+    tag: latest
