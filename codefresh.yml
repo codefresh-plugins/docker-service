@@ -7,4 +7,4 @@ steps:
   push_to_registry:
     type: push
     candidate: ${{build_step}}
-    tag: latest
+    tag: "0.1"
