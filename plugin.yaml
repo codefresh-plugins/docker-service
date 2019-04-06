@@ -1,7 +1,8 @@
 image: codefreshplugins/docker-service
 version: 0.1.0
 description: Codefresh docker-service plugin
-categories: []
+categories:
+  - Utility
 keywords:
   - docker
   - docker-machine
@@ -11,4 +12,7 @@ sources:
 maintainers: # (optional)
   - name: Kosta Klevensky
     email: kosta@codefresh.io
-envs: []
+envs:
+  - name: DOCKER_MACHINE_NAME
+    type: optional
+    description: Name of the created VM
