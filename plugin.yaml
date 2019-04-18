@@ -2,7 +2,7 @@ image: codefreshplugins/docker-service
 version: 0.1.0
 description: Codefresh docker-service plugin
 categories:
-  - Utility
+  - utility
 keywords:
   - docker
   - docker-machine
